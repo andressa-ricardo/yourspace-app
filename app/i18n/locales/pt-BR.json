@@ -1,0 +1,828 @@
+{
+    "auth": {
+        "register": {
+            "title": "Criar conta",
+            "subtitle": "Uma forma mais tranquila de planejar começa aqui.",
+            "fullName": {
+                "label": "Nome completo",
+                "placeholder": "Alex Morgan"
+            },
+            "email": {
+                "label": "E-mail",
+                "placeholder": "alex@morganlabs.co"
+            },
+            "password": {
+                "label": "Senha",
+                "placeholder": "Pelo menos 8 caracteres"
+            },
+            "terms": {
+                "prefix": "Ao criar uma conta, você concorda com nossos",
+                "termsOfUse": "Termos de Uso",
+                "and": "e com a",
+                "privacyPolicy": "Política de Privacidade"
+            },
+            "createAccountButton": "Criar conta",
+            "divider": "ou",
+            "googleButton": "Cadastrar-se com o Google",
+            "appleButton": "Cadastrar-se com a Apple",
+            "alreadyHaveAccount": "Já tem uma conta?",
+            "signInLink": "Entrar"
+        },
+        "login": {
+            "title": "Boas-vindas de volta",
+            "subtitle": "Entre para continuar planejando sua semana.",
+            "email": {
+                "label": "E-mail",
+                "placeholder": "Digite seu e-mail"
+            },
+            "password": {
+                "label": "Senha",
+                "placeholder": "Digite sua senha"
+            },
+            "forgotPassword": "Esqueceu a senha?",
+            "signInButton": "Entrar",
+            "divider": "ou",
+            "googleButton": "Continuar com o Google",
+            "appleButton": "Continuar com a Apple",
+            "dontHaveAccount": "Ainda não tem uma conta?",
+            "signUpLink": "Criar conta"
+        }
+    },
+    "home": {
+        "greeting": {
+            "morning": "Bom dia,",
+            "afternoon": "Boa tarde,",
+            "evening": "Boa noite,"
+        },
+        "productivity": {
+            "title": "Pontuação de produtividade",
+            "scoreSuffix": "/ 100",
+            "weeklyChange": "{{value}} nesta semana"
+        },
+        "weekDays": {
+            "mondayShort": "S",
+            "tuesdayShort": "T",
+            "wednesdayShort": "Q",
+            "thursdayShort": "Q",
+            "fridayShort": "S",
+            "saturdayShort": "S",
+            "sundayShort": "D"
+        },
+        "summary": {
+            "tasks": "Tarefas",
+            "streak": "Sequência",
+            "focus": "Foco",
+            "daysShort": "d",
+            "hoursShort": "h",
+            "minutesShort": "min"
+        },
+        "sections": {
+            "todaysTasks": "Tarefas de hoje",
+            "upNext": "Próximos eventos",
+            "habits": "Hábitos",
+            "goals": "Metas",
+            "wishlist": "Lista de desejos",
+            "recentNotes": "Anotações recentes",
+            "more": "Mais"
+        },
+        "actions": {
+            "seeAll": "Ver tudo"
+        },
+        "taskPriority": {
+            "low": "Baixa",
+            "medium": "Média",
+            "high": "Alta",
+            "urgent": "Urgente"
+        },
+        "habits": {
+            "weeklyProgress": "{{completed}}/{{total}} nesta semana"
+        },
+        "notes": {
+            "timeAgo": {
+                "minutes": "há {{count}} min",
+                "hours": "há {{count}}h",
+                "days": "há {{count}} dias",
+                "yesterday": "Ontem"
+            }
+        },
+        "navigation": {
+            "dailyPlanner": "Planejamento diário",
+            "statistics": "Estatísticas",
+            "goals": "Metas",
+            "wishlist": "Lista de desejos"
+        }
+    },
+    "tasks": {
+        "title": "Tarefas",
+        "tabs": {
+            "all": "Todas",
+            "today": "Hoje",
+            "upcoming": "Próximas",
+            "high": "Alta prioridade",
+            "completed": "Concluídas"
+        },
+        "sections": {
+            "today": "Hoje",
+            "tomorrow": "Amanhã",
+            "thisWeek": "Esta semana"
+        },
+        "actions": {
+            "add": "Nova tarefa",
+            "edit": "Editar tarefa",
+            "delete": "Excluir tarefa",
+            "save": "Salvar",
+            "cancel": "Cancelar"
+        },
+        "fields": {
+            "title": "Título",
+            "titlePlaceholder": "Digite o título da tarefa",
+            "description": "Descrição",
+            "descriptionPlaceholder": "Adicione algumas observações...",
+            "category": "Categoria",
+            "priority": "Prioridade",
+            "status": "Status",
+            "date": "Data",
+            "time": "Horário",
+            "repeat": "Repetição",
+            "reminder": "Lembrete",
+            "color": "Cor"
+        },
+        "priority": {
+            "low": "Baixa",
+            "medium": "Média",
+            "high": "Alta",
+            "urgent": "Urgente"
+        },
+        "repeat": {
+            "none": "Nunca",
+            "daily": "Diariamente",
+            "weekly": "Semanalmente",
+            "monthly": "Mensalmente",
+            "yearly": "Anualmente"
+        },
+        "status": {
+            "pending": "Pendente",
+            "completed": "Concluída"
+        },
+        "category": {
+            "title": "Categoria",
+            "select": "Selecionar categoria",
+            "createNew": "Criar nova categoria",
+            "newCategoryTitle": "Nova categoria",
+            "name": "Nome da categoria",
+            "namePlaceholder": "Ex.: Faculdade",
+            "icon": "Ícone",
+            "color": "Cor",
+            "create": "Criar categoria",
+            "cancel": "Cancelar",
+            "noCategories": "Nenhuma categoria encontrada",
+            "createdSuccessfully": "Categoria criada com sucesso",
+            "errors": {
+                "nameRequired": "Digite o nome da categoria",
+                "nameAlreadyExists": "Já existe uma categoria com esse nome",
+                "createFailed": "Não foi possível criar a categoria"
+            }
+        },
+        "empty": {
+            "title": "Nenhuma tarefa",
+            "description": "Crie sua primeira tarefa."
+        }
+    },
+    "calendar": {
+        "title": "Calendário",
+        "views": {
+            "month": "Mês",
+            "week": "Semana",
+            "day": "Dia"
+        },
+        "sections": {
+            "todayTimeline": "Linha do tempo de hoje"
+        },
+        "actions": {
+            "goToToday": "Hoje",
+            "openTask": "Ver tarefa"
+        },
+        "eventCount": {
+            "one": "{{count}} tarefa",
+            "other": "{{count}} tarefas"
+        },
+        "allDay": "Dia inteiro",
+        "empty": {
+            "title": "Nenhuma tarefa agendada",
+            "description": "As tarefas com data aparecerão aqui."
+        }
+    },
+    "habits": {
+        "title": "Hábitos",
+        "summary": {
+            "todayProgress": "Progresso de hoje",
+            "bestStreak": "Melhor sequência",
+            "days": "{{count}} dia",
+            "days_other": "{{count}} dias"
+        },
+        "sections": {
+            "today": "Hoje",
+            "monthlyHeatmap": "Mapa mensal"
+        },
+        "progress": {
+            "weekly": "{{completed}}/{{target}} nesta semana",
+            "completion": "{{percentage}}% concluído"
+        },
+        "streak": {
+            "daysShort": "{{count}}d",
+            "current": "Sequência atual",
+            "best": "Melhor sequência"
+        },
+        "heatmap": {
+            "less": "Menos",
+            "more": "Mais",
+            "completed": "Concluído",
+            "notCompleted": "Não concluído"
+        },
+        "actions": {
+            "add": "Novo hábito",
+            "edit": "Editar hábito",
+            "delete": "Excluir hábito",
+            "save": "Salvar",
+            "cancel": "Cancelar",
+            "markAsCompleted": "Marcar como concluído",
+            "markAsPending": "Marcar como pendente"
+        },
+        "fields": {
+            "name": "Nome do hábito",
+            "namePlaceholder": "Ex.: Meditação matinal",
+            "description": "Descrição",
+            "descriptionPlaceholder": "Adicione alguns detalhes...",
+            "icon": "Ícone",
+            "color": "Cor",
+            "category": "Categoria",
+            "frequency": "Frequência",
+            "daysOfWeek": "Dias da semana",
+            "monthlyDays": "Dias do mês",
+            "dailyGoal": "Meta diária",
+            "weeklyGoal": "Meta semanal",
+            "startDate": "Data de início",
+            "endDate": "Data de término",
+            "time": "Horário",
+            "reminder": "Lembrete"
+        },
+        "frequency": {
+            "daily": "Todos os dias",
+            "weekdays": "Dias úteis",
+            "weekends": "Finais de semana",
+            "specificDays": "Dias específicos",
+            "timesPerWeek": "Vezes por semana",
+            "monthly": "Mensalmente"
+        },
+        "weekDays": {
+            "monday": "Segunda-feira",
+            "tuesday": "Terça-feira",
+            "wednesday": "Quarta-feira",
+            "thursday": "Quinta-feira",
+            "friday": "Sexta-feira",
+            "saturday": "Sábado",
+            "sunday": "Domingo",
+            "mondayShort": "S",
+            "tuesdayShort": "T",
+            "wednesdayShort": "Q",
+            "thursdayShort": "Q",
+            "fridayShort": "S",
+            "saturdayShort": "S",
+            "sundayShort": "D"
+        },
+        "reminder": {
+            "none": "Sem lembrete",
+            "atTime": "No horário selecionado",
+            "fiveMinutes": "5 minutos antes",
+            "tenMinutes": "10 minutos antes",
+            "thirtyMinutes": "30 minutos antes",
+            "oneHour": "1 hora antes"
+        },
+        "empty": {
+            "title": "Nenhum hábito",
+            "description": "Crie seu primeiro hábito e comece a construir sua rotina."
+        },
+        "errors": {
+            "nameRequired": "Digite o nome do hábito",
+            "frequencyRequired": "Selecione uma frequência",
+            "createFailed": "Não foi possível criar o hábito",
+            "updateFailed": "Não foi possível atualizar o hábito",
+            "deleteFailed": "Não foi possível excluir o hábito"
+        },
+        "messages": {
+            "createdSuccessfully": "Hábito criado com sucesso",
+            "updatedSuccessfully": "Hábito atualizado com sucesso",
+            "deletedSuccessfully": "Hábito excluído com sucesso"
+        }
+    },
+    "goals": {
+        "title": "Metas",
+        "summary": {
+            "yearProgress": "Você já percorreu {{percentage}}% do ano",
+            "activeGoals": "{{count}} meta ativa",
+            "activeGoals_other": "{{count}} metas ativas",
+            "milestonesCompleted": "{{count}} marco concluído",
+            "milestonesCompleted_other": "{{count}} marcos concluídos"
+        },
+        "sections": {
+            "active": "Metas ativas",
+            "completed": "Metas concluídas",
+            "archived": "Metas arquivadas"
+        },
+        "progress": {
+            "label": "Progresso",
+            "percentage": "{{percentage}}%",
+            "milestones": "Marcos · {{completed}}/{{total}}"
+        },
+        "actions": {
+            "add": "Nova meta",
+            "edit": "Editar meta",
+            "delete": "Excluir meta",
+            "archive": "Arquivar meta",
+            "restore": "Restaurar meta",
+            "save": "Salvar",
+            "cancel": "Cancelar",
+            "addMilestone": "Adicionar marco",
+            "editMilestone": "Editar marco",
+            "deleteMilestone": "Excluir marco",
+            "markMilestoneCompleted": "Marcar marco como concluído",
+            "markMilestonePending": "Marcar marco como pendente"
+        },
+        "fields": {
+            "title": "Título da meta",
+            "titlePlaceholder": "Ex.: Correr uma meia maratona",
+            "description": "Descrição",
+            "descriptionPlaceholder": "Descreva o que você deseja alcançar...",
+            "category": "Categoria",
+            "targetDate": "Data limite",
+            "progressType": "Tipo de progresso",
+            "progress": "Progresso",
+            "startValue": "Valor inicial",
+            "currentValue": "Valor atual",
+            "targetValue": "Valor final",
+            "unit": "Unidade",
+            "currency": "Moeda",
+            "color": "Cor",
+            "icon": "Ícone",
+            "milestones": "Marcos"
+        },
+        "progressType": {
+            "manual": "Porcentagem manual",
+            "milestones": "Baseado nos marcos",
+            "numeric": "Baseado em uma meta numérica"
+        },
+        "milestones": {
+            "title": "Marcos",
+            "name": "Nome do marco",
+            "namePlaceholder": "Ex.: Correr 10 km",
+            "targetDate": "Data limite",
+            "completed": "Concluído",
+            "pending": "Pendente",
+            "empty": "Nenhum marco adicionado"
+        },
+        "status": {
+            "active": "Ativa",
+            "completed": "Concluída",
+            "archived": "Arquivada",
+            "overdue": "Atrasada"
+        },
+        "empty": {
+            "title": "Nenhuma meta",
+            "description": "Crie sua primeira meta e comece a acompanhar seu progresso."
+        },
+        "errors": {
+            "titleRequired": "Digite o título da meta",
+            "targetDateRequired": "Selecione uma data limite",
+            "targetValueRequired": "Digite o valor final",
+            "createFailed": "Não foi possível criar a meta",
+            "updateFailed": "Não foi possível atualizar a meta",
+            "deleteFailed": "Não foi possível excluir a meta"
+        },
+        "messages": {
+            "createdSuccessfully": "Meta criada com sucesso",
+            "updatedSuccessfully": "Meta atualizada com sucesso",
+            "deletedSuccessfully": "Meta excluída com sucesso",
+            "completedSuccessfully": "Meta concluída com sucesso"
+        }
+    },
+    "wishlist": {
+        "title": "Lista de desejos",
+        "summary": {
+            "savingTowardWishes": "Economizando para seus desejos",
+            "savedAmount": "{{saved}}",
+            "totalAmount": "/ {{total}}"
+        },
+        "tabs": {
+            "all": "Todos"
+        },
+        "progress": {
+            "saved": "{{percentage}}% economizado",
+            "savedAmount": "{{saved}} de {{target}} economizados"
+        },
+        "status": {
+            "active": "Economizando",
+            "owned": "Adquirido",
+            "archived": "Arquivado"
+        },
+        "actions": {
+            "add": "Adicionar desejo",
+            "edit": "Editar desejo",
+            "delete": "Excluir desejo",
+            "archive": "Arquivar desejo",
+            "restore": "Restaurar desejo",
+            "markAsOwned": "Marcar como adquirido",
+            "markAsActive": "Mover de volta para a lista",
+            "addSavings": "Adicionar valor economizado",
+            "save": "Salvar",
+            "cancel": "Cancelar"
+        },
+        "fields": {
+            "name": "Nome do desejo",
+            "namePlaceholder": "Ex.: Fone com cancelamento de ruído",
+            "brand": "Marca",
+            "brandPlaceholder": "Ex.: Sony",
+            "description": "Descrição",
+            "descriptionPlaceholder": "Adicione alguns detalhes...",
+            "category": "Categoria",
+            "price": "Preço desejado",
+            "savedAmount": "Valor economizado",
+            "currency": "Moeda",
+            "url": "Link do produto",
+            "urlPlaceholder": "Cole o link do produto",
+            "image": "Imagem",
+            "priority": "Prioridade",
+            "targetDate": "Data desejada",
+            "status": "Status",
+            "notes": "Observações",
+            "notesPlaceholder": "Adicione observações sobre este desejo..."
+        },
+        "priority": {
+            "low": "Baixa",
+            "medium": "Média",
+            "high": "Alta"
+        },
+        "category": {
+            "title": "Categoria",
+            "select": "Selecionar categoria",
+            "createNew": "Criar nova categoria",
+            "newCategoryTitle": "Nova categoria da lista de desejos",
+            "name": "Nome da categoria",
+            "namePlaceholder": "Ex.: Fotografia",
+            "icon": "Ícone",
+            "color": "Cor",
+            "create": "Criar categoria",
+            "edit": "Editar categoria",
+            "delete": "Excluir categoria",
+            "cancel": "Cancelar",
+            "noCategories": "Nenhuma categoria encontrada",
+            "createdSuccessfully": "Categoria criada com sucesso",
+            "updatedSuccessfully": "Categoria atualizada com sucesso",
+            "deletedSuccessfully": "Categoria excluída com sucesso",
+            "errors": {
+                "nameRequired": "Digite o nome da categoria",
+                "nameAlreadyExists": "Já existe uma categoria com esse nome",
+                "createFailed": "Não foi possível criar a categoria",
+                "updateFailed": "Não foi possível atualizar a categoria",
+                "deleteFailed": "Não foi possível excluir a categoria"
+            }
+        },
+        "empty": {
+            "title": "Sua lista de desejos está vazia",
+            "description": "Adicione algo que você gostaria de comprar ou realizar."
+        },
+        "errors": {
+            "nameRequired": "Digite o nome do desejo",
+            "priceRequired": "Digite o preço desejado",
+            "invalidPrice": "Digite um preço válido",
+            "savedAmountExceedsPrice": "O valor economizado não pode ser maior que o preço desejado",
+            "createFailed": "Não foi possível criar o desejo",
+            "updateFailed": "Não foi possível atualizar o desejo",
+            "deleteFailed": "Não foi possível excluir o desejo"
+        },
+        "messages": {
+            "createdSuccessfully": "Desejo adicionado com sucesso",
+            "updatedSuccessfully": "Desejo atualizado com sucesso",
+            "deletedSuccessfully": "Desejo excluído com sucesso",
+            "markedAsOwned": "Desejo marcado como adquirido",
+            "savingsUpdated": "Valor economizado atualizado com sucesso"
+        }
+    },
+    "notes": {
+        "title": "Anotações",
+        "search": {
+            "placeholder": "Pesquisar anotações, tags e conteúdo..."
+        },
+        "folders": {
+            "title": "Pastas",
+            "all": "Todas",
+            "createNew": "Criar nova pasta",
+            "edit": "Editar pasta",
+            "delete": "Excluir pasta",
+            "name": "Nome da pasta",
+            "namePlaceholder": "Ex.: Receitas",
+            "icon": "Ícone",
+            "color": "Cor",
+            "create": "Criar pasta",
+            "save": "Salvar",
+            "cancel": "Cancelar",
+            "empty": "Nenhuma pasta",
+            "errors": {
+                "nameRequired": "Digite o nome da pasta",
+                "nameAlreadyExists": "Já existe uma pasta com esse nome",
+                "createFailed": "Não foi possível criar a pasta",
+                "updateFailed": "Não foi possível atualizar a pasta",
+                "deleteFailed": "Não foi possível excluir a pasta"
+            }
+        },
+        "sections": {
+            "pinned": "Fixadas",
+            "allNotes": "Todas as anotações"
+        },
+        "actions": {
+            "new": "Nova anotação",
+            "edit": "Editar anotação",
+            "delete": "Excluir anotação",
+            "duplicate": "Duplicar anotação",
+            "pin": "Fixar anotação",
+            "unpin": "Desafixar anotação",
+            "archive": "Arquivar anotação",
+            "restore": "Restaurar anotação",
+            "share": "Compartilhar anotação",
+            "save": "Salvar",
+            "cancel": "Cancelar"
+        },
+        "fields": {
+            "title": "Título",
+            "titlePlaceholder": "Anotação sem título",
+            "content": "Conteúdo",
+            "contentPlaceholder": "Comece a escrever...",
+            "folder": "Pasta",
+            "tags": "Tags",
+            "attachments": "Anexos",
+            "cover": "Imagem de capa"
+        },
+        "blocks": {
+            "title": "Blocos",
+            "text": "Texto",
+            "image": "Imagem",
+            "code": "Código",
+            "table": "Tabela",
+            "voice": "Áudio"
+        },
+        "empty": {
+            "title": "Nenhuma anotação",
+            "description": "Crie sua primeira anotação."
+        },
+        "messages": {
+            "createdSuccessfully": "Anotação criada com sucesso",
+            "updatedSuccessfully": "Anotação atualizada com sucesso",
+            "deletedSuccessfully": "Anotação excluída com sucesso"
+        },
+        "errors": {
+            "titleRequired": "Digite um título para a anotação",
+            "createFailed": "Não foi possível criar a anotação",
+            "updateFailed": "Não foi possível atualizar a anotação",
+            "deleteFailed": "Não foi possível excluir a anotação"
+        }
+    },
+    "planner": {
+        "title": "Planejador",
+        "subtitle": "Planeje seu dia",
+        "periods": {
+            "morning": "Manhã",
+            "afternoon": "Tarde",
+            "evening": "Noite"
+        },
+        "actions": {
+            "addBlock": "Adicionar bloco",
+            "editBlock": "Editar bloco",
+            "deleteBlock": "Excluir bloco",
+            "moveBlock": "Mover bloco",
+            "save": "Salvar",
+            "cancel": "Cancelar"
+        },
+        "fields": {
+            "title": "Título do bloco",
+            "titlePlaceholder": "Digite um título",
+            "description": "Descrição",
+            "descriptionPlaceholder": "Adicione alguns detalhes...",
+            "date": "Data",
+            "startTime": "Horário de início",
+            "endTime": "Horário de término",
+            "period": "Período",
+            "category": "Categoria",
+            "color": "Cor",
+            "icon": "Ícone",
+            "source": "Origem"
+        },
+        "source": {
+            "manual": "Bloco do planejador",
+            "task": "Tarefa",
+            "habit": "Hábito"
+        },
+        "empty": {
+            "morning": "Nenhum planejamento para a manhã",
+            "afternoon": "Nenhum planejamento para a tarde",
+            "evening": "Nenhum planejamento para a noite"
+        },
+        "errors": {
+            "titleRequired": "Digite o título do bloco",
+            "startTimeRequired": "Selecione um horário de início",
+            "invalidTimeRange": "O horário de término deve ser posterior ao horário de início",
+            "createFailed": "Não foi possível criar o bloco",
+            "updateFailed": "Não foi possível atualizar o bloco",
+            "deleteFailed": "Não foi possível excluir o bloco"
+        },
+        "messages": {
+            "createdSuccessfully": "Bloco criado com sucesso",
+            "updatedSuccessfully": "Bloco atualizado com sucesso",
+            "deletedSuccessfully": "Bloco excluído com sucesso"
+        }
+    },
+    "statistics": {
+        "title": "Estatísticas",
+        "periods": {
+            "week": "Semana",
+            "month": "Mês",
+            "year": "Ano"
+        },
+        "summary": {
+            "tasksDone": "Tarefas concluídas",
+            "focusTime": "Tempo de foco",
+            "habitStreak": "Sequência de hábitos",
+            "averageScore": "Média de produtividade",
+            "best": "Melhor",
+            "days": "{{count}} dia",
+            "days_other": "{{count}} dias"
+        },
+        "sections": {
+            "weeklyProductivity": "Produtividade semanal",
+            "monthlyProductivity": "Produtividade mensal",
+            "yearlyProductivity": "Produtividade anual",
+            "focusMinutes": "Minutos de foco",
+            "topHabits": "Principais hábitos"
+        },
+        "comparisons": {
+            "increase": "+{{value}}",
+            "decrease": "-{{value}}",
+            "percentageIncrease": "+{{value}}%",
+            "percentageDecrease": "-{{value}}%",
+            "timeIncrease": "+{{value}}",
+            "timeDecrease": "-{{value}}",
+            "comparedToPreviousWeek": "Em comparação com a semana anterior",
+            "comparedToPreviousMonth": "Em comparação com o mês anterior",
+            "comparedToPreviousYear": "Em comparação com o ano anterior",
+            "noChange": "Sem alteração"
+        },
+        "charts": {
+            "productivityScore": "Pontuação de produtividade",
+            "tasksCompleted": "Tarefas concluídas",
+            "focusTime": "Tempo de foco",
+            "habitCompletion": "Conclusão de hábitos",
+            "minutes": "Minutos",
+            "hours": "Horas",
+            "percentage": "Porcentagem",
+            "noData": "Não há dados suficientes para este período"
+        },
+        "habitProgress": {
+            "completion": "{{percentage}}% concluído"
+        },
+        "actions": {
+            "viewDetails": "Ver detalhes",
+            "export": "Exportar estatísticas"
+        },
+        "empty": {
+            "title": "Ainda não há estatísticas",
+            "description": "Conclua tarefas e hábitos para começar a acompanhar seu progresso."
+        },
+        "errors": {
+            "loadFailed": "Não foi possível carregar suas estatísticas"
+        }
+    },
+    "profile": {
+        "title": "Perfil",
+        "account": {
+            "memberSince": "Membro desde {{date}}"
+        },
+        "subscription": {
+            "freePlan": "YourSpace Gratuito",
+            "proPlan": "YourSpace Pro",
+            "description": "Tenha metas ilimitadas, temas e análises avançadas",
+            "upgrade": "Assinar",
+            "pricePerMonth": "{{price}}/mês",
+            "manageSubscription": "Gerenciar assinatura",
+            "currentPlan": "Plano atual"
+        },
+        "statistics": {
+            "tasks": "Tarefas",
+            "score": "Pontuação",
+            "goals": "Metas",
+            "wishes": "Desejos"
+        },
+        "sections": {
+            "appearance": "Aparência",
+            "preferences": "Preferências",
+            "connectedAccounts": "Contas conectadas",
+            "privacyAndData": "Privacidade e dados",
+            "about": "Sobre o YourSpace"
+        },
+        "appearance": {
+            "light": "Claro",
+            "dark": "Escuro",
+            "system": "Automático"
+        },
+        "preferences": {
+            "notifications": "Notificações",
+            "language": "Idioma",
+            "backupAndSync": "Backup e sincronização"
+        },
+        "notifications": {
+            "title": "Notificações",
+            "enabled": "Ativadas",
+            "disabled": "Desativadas",
+            "taskReminders": "Lembretes de tarefas",
+            "habitReminders": "Lembretes de hábitos",
+            "goalUpdates": "Atualizações de metas",
+            "dailySummary": "Resumo diário"
+        },
+        "language": {
+            "title": "Idioma",
+            "english": "Inglês",
+            "portuguese": "Português",
+            "systemDefault": "Usar idioma do dispositivo"
+        },
+        "backup": {
+            "title": "Backup e sincronização",
+            "enabled": "Backup ativado",
+            "disabled": "Backup desativado",
+            "lastBackup": "Último backup: {{date}}",
+            "syncNow": "Sincronizar agora",
+            "syncing": "Sincronizando...",
+            "syncedSuccessfully": "Dados sincronizados com sucesso",
+            "syncFailed": "Não foi possível sincronizar seus dados"
+        },
+        "connectedAccounts": {
+            "googleCalendar": "Google Agenda",
+            "appleCalendar": "Calendário da Apple",
+            "notion": "Notion",
+            "connected": "Conectado",
+            "connect": "Conectar",
+            "disconnect": "Desconectar",
+            "connectionFailed": "Não foi possível conectar a conta",
+            "disconnectionFailed": "Não foi possível desconectar a conta"
+        },
+        "privacy": {
+            "privacyPolicy": "Política de Privacidade",
+            "termsOfUse": "Termos de Uso",
+            "exportData": "Exportar dados",
+            "deleteAccount": "Excluir conta",
+            "downloadData": "Baixar meus dados"
+        },
+        "about": {
+            "version": "Versão {{version}}",
+            "contactSupport": "Entrar em contato com o suporte",
+            "rateApp": "Avaliar o aplicativo",
+            "licenses": "Licenças"
+        },
+        "actions": {
+            "editProfile": "Editar perfil",
+            "save": "Salvar",
+            "cancel": "Cancelar",
+            "signOut": "Sair"
+        },
+        "editProfile": {
+            "title": "Editar perfil",
+            "fields": {
+                "fullName": "Nome completo",
+                "fullNamePlaceholder": "Digite seu nome completo",
+                "email": "E-mail",
+                "emailPlaceholder": "Digite seu e-mail",
+                "profilePicture": "Foto de perfil"
+            },
+            "changePicture": "Alterar foto",
+            "removePicture": "Remover foto"
+        },
+        "signOut": {
+            "title": "Deseja sair?",
+            "description": "Você precisará entrar novamente para acessar sua conta.",
+            "confirm": "Sair",
+            "cancel": "Cancelar"
+        },
+        "deleteAccount": {
+            "title": "Excluir conta?",
+            "description": "Esta ação é permanente e todos os seus dados serão excluídos.",
+            "confirm": "Excluir conta",
+            "cancel": "Cancelar"
+        },
+        "messages": {
+            "profileUpdated": "Perfil atualizado com sucesso",
+            "languageUpdated": "Idioma atualizado com sucesso",
+            "appearanceUpdated": "Aparência atualizada com sucesso"
+        },
+        "errors": {
+            "profileUpdateFailed": "Não foi possível atualizar seu perfil",
+            "signOutFailed": "Não foi possível sair da conta",
+            "exportFailed": "Não foi possível exportar seus dados"
+        }
+    }
+}

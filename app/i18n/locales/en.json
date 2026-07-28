@@ -1,0 +1,828 @@
+{
+    "auth": {
+        "register": {
+            "title": "Create account",
+            "subtitle": "A calmer way to plan starts here.",
+            "fullName": {
+                "label": "Full name",
+                "placeholder": "Alex Morgan"
+            },
+            "email": {
+                "label": "Email",
+                "placeholder": "alex@morganlabs.co"
+            },
+            "password": {
+                "label": "Password",
+                "placeholder": "At least 8 characters"
+            },
+            "terms": {
+                "prefix": "By creating an account, you agree to our",
+                "termsOfUse": "Terms of Use",
+                "and": "and",
+                "privacyPolicy": "Privacy Policy"
+            },
+            "createAccountButton": "Create account",
+            "divider": "or",
+            "googleButton": "Sign up with Google",
+            "appleButton": "Sign up with Apple",
+            "alreadyHaveAccount": "Already have an account?",
+            "signInLink": "Sign in"
+        },
+        "login": {
+            "title": "Welcome back",
+            "subtitle": "Sign in to continue planning your week.",
+            "email": {
+                "label": "Email",
+                "placeholder": "Enter your email"
+            },
+            "password": {
+                "label": "Password",
+                "placeholder": "Enter your password"
+            },
+            "forgotPassword": "Forgot password?",
+            "signInButton": "Sign in",
+            "divider": "or",
+            "googleButton": "Continue with Google",
+            "appleButton": "Continue with Apple",
+            "dontHaveAccount": "Don't have an account?",
+            "signUpLink": "Sign up"
+        }
+    },
+    "home": {
+        "greeting": {
+            "morning": "Good morning,",
+            "afternoon": "Good afternoon,",
+            "evening": "Good evening,"
+        },
+        "productivity": {
+            "title": "Productivity score",
+            "scoreSuffix": "/ 100",
+            "weeklyChange": "{{value}} this week"
+        },
+        "weekDays": {
+            "mondayShort": "M",
+            "tuesdayShort": "T",
+            "wednesdayShort": "W",
+            "thursdayShort": "T",
+            "fridayShort": "F",
+            "saturdayShort": "S",
+            "sundayShort": "S"
+        },
+        "summary": {
+            "tasks": "Tasks",
+            "streak": "Streak",
+            "focus": "Focus",
+            "daysShort": "d",
+            "hoursShort": "h",
+            "minutesShort": "m"
+        },
+        "sections": {
+            "todaysTasks": "Today's tasks",
+            "upNext": "Up next",
+            "habits": "Habits",
+            "goals": "Goals",
+            "wishlist": "Wishlist",
+            "recentNotes": "Recent notes",
+            "more": "More"
+        },
+        "actions": {
+            "seeAll": "See all"
+        },
+        "taskPriority": {
+            "low": "Low",
+            "medium": "Medium",
+            "high": "High",
+            "urgent": "Urgent"
+        },
+        "habits": {
+            "weeklyProgress": "{{completed}}/{{total}} this week"
+        },
+        "notes": {
+            "timeAgo": {
+                "minutes": "{{count}}m ago",
+                "hours": "{{count}}h ago",
+                "days": "{{count}}d ago",
+                "yesterday": "Yesterday"
+            }
+        },
+        "navigation": {
+            "dailyPlanner": "Daily planner",
+            "statistics": "Statistics",
+            "goals": "Goals",
+            "wishlist": "Wishlist"
+        }
+    },
+    "tasks": {
+        "title": "Tasks",
+        "tabs": {
+            "all": "All",
+            "today": "Today",
+            "upcoming": "Upcoming",
+            "high": "High",
+            "completed": "Completed"
+        },
+        "sections": {
+            "today": "Today",
+            "tomorrow": "Tomorrow",
+            "thisWeek": "This week"
+        },
+        "actions": {
+            "add": "Add task",
+            "edit": "Edit task",
+            "delete": "Delete task",
+            "save": "Save",
+            "cancel": "Cancel"
+        },
+        "fields": {
+            "title": "Title",
+            "titlePlaceholder": "Enter task title",
+            "description": "Description",
+            "descriptionPlaceholder": "Add some notes...",
+            "category": "Category",
+            "priority": "Priority",
+            "status": "Status",
+            "date": "Date",
+            "time": "Time",
+            "repeat": "Repeat",
+            "reminder": "Reminder",
+            "color": "Color"
+        },
+        "priority": {
+            "low": "Low",
+            "medium": "Medium",
+            "high": "High",
+            "urgent": "Urgent"
+        },
+        "repeat": {
+            "none": "Never",
+            "daily": "Daily",
+            "weekly": "Weekly",
+            "monthly": "Monthly",
+            "yearly": "Yearly"
+        },
+        "status": {
+            "pending": "Pending",
+            "completed": "Completed"
+        },
+        "category": {
+            "title": "Category",
+            "select": "Select category",
+            "createNew": "Create new category",
+            "newCategoryTitle": "New category",
+            "name": "Category name",
+            "namePlaceholder": "e.g. College",
+            "icon": "Icon",
+            "color": "Color",
+            "create": "Create category",
+            "cancel": "Cancel",
+            "noCategories": "No categories found",
+            "createdSuccessfully": "Category created successfully",
+            "errors": {
+                "nameRequired": "Enter a category name",
+                "nameAlreadyExists": "A category with this name already exists",
+                "createFailed": "Could not create the category"
+            }
+        },
+        "empty": {
+            "title": "No tasks yet",
+            "description": "Create your first task."
+        }
+    },
+    "calendar": {
+        "title": "Calendar",
+        "views": {
+            "month": "Month",
+            "week": "Week",
+            "day": "Day"
+        },
+        "sections": {
+            "todayTimeline": "Today's timeline"
+        },
+        "actions": {
+            "goToToday": "Today",
+            "openTask": "View task"
+        },
+        "eventCount": {
+            "one": "{{count}} task",
+            "other": "{{count}} tasks"
+        },
+        "allDay": "All day",
+        "empty": {
+            "title": "No tasks scheduled",
+            "description": "Tasks with a date will appear here."
+        }
+    },
+    "habits": {
+        "title": "Habits",
+        "summary": {
+            "todayProgress": "Today's progress",
+            "bestStreak": "Best streak",
+            "days": "{{count}} day",
+            "days_other": "{{count}} days"
+        },
+        "sections": {
+            "today": "Today",
+            "monthlyHeatmap": "Monthly heatmap"
+        },
+        "progress": {
+            "weekly": "{{completed}}/{{target}} this week",
+            "completion": "{{percentage}}% completion"
+        },
+        "streak": {
+            "daysShort": "{{count}}d",
+            "current": "Current streak",
+            "best": "Best streak"
+        },
+        "heatmap": {
+            "less": "Less",
+            "more": "More",
+            "completed": "Completed",
+            "notCompleted": "Not completed"
+        },
+        "actions": {
+            "add": "Add habit",
+            "edit": "Edit habit",
+            "delete": "Delete habit",
+            "save": "Save",
+            "cancel": "Cancel",
+            "markAsCompleted": "Mark as completed",
+            "markAsPending": "Mark as pending"
+        },
+        "fields": {
+            "name": "Habit name",
+            "namePlaceholder": "e.g. Morning meditation",
+            "description": "Description",
+            "descriptionPlaceholder": "Add some details...",
+            "icon": "Icon",
+            "color": "Color",
+            "category": "Category",
+            "frequency": "Frequency",
+            "daysOfWeek": "Days of the week",
+            "monthlyDays": "Days of the month",
+            "dailyGoal": "Daily goal",
+            "weeklyGoal": "Weekly goal",
+            "startDate": "Start date",
+            "endDate": "End date",
+            "time": "Time",
+            "reminder": "Reminder"
+        },
+        "frequency": {
+            "daily": "Every day",
+            "weekdays": "Weekdays",
+            "weekends": "Weekends",
+            "specificDays": "Specific days",
+            "timesPerWeek": "Times per week",
+            "monthly": "Monthly"
+        },
+        "weekDays": {
+            "monday": "Monday",
+            "tuesday": "Tuesday",
+            "wednesday": "Wednesday",
+            "thursday": "Thursday",
+            "friday": "Friday",
+            "saturday": "Saturday",
+            "sunday": "Sunday",
+            "mondayShort": "M",
+            "tuesdayShort": "T",
+            "wednesdayShort": "W",
+            "thursdayShort": "T",
+            "fridayShort": "F",
+            "saturdayShort": "S",
+            "sundayShort": "S"
+        },
+        "reminder": {
+            "none": "No reminder",
+            "atTime": "At the selected time",
+            "fiveMinutes": "5 minutes before",
+            "tenMinutes": "10 minutes before",
+            "thirtyMinutes": "30 minutes before",
+            "oneHour": "1 hour before"
+        },
+        "empty": {
+            "title": "No habits yet",
+            "description": "Create your first habit and start building your routine."
+        },
+        "errors": {
+            "nameRequired": "Enter a habit name",
+            "frequencyRequired": "Select a frequency",
+            "createFailed": "Could not create the habit",
+            "updateFailed": "Could not update the habit",
+            "deleteFailed": "Could not delete the habit"
+        },
+        "messages": {
+            "createdSuccessfully": "Habit created successfully",
+            "updatedSuccessfully": "Habit updated successfully",
+            "deletedSuccessfully": "Habit deleted successfully"
+        }
+    },
+    "goals": {
+        "title": "Goals",
+        "summary": {
+            "yearProgress": "You're {{percentage}}% through your year",
+            "activeGoals": "{{count}} active goal",
+            "activeGoals_other": "{{count}} active goals",
+            "milestonesCompleted": "{{count}} milestone completed",
+            "milestonesCompleted_other": "{{count}} milestones completed"
+        },
+        "sections": {
+            "active": "Active goals",
+            "completed": "Completed goals",
+            "archived": "Archived goals"
+        },
+        "progress": {
+            "label": "Progress",
+            "percentage": "{{percentage}}%",
+            "milestones": "Milestones · {{completed}}/{{total}}"
+        },
+        "actions": {
+            "add": "Add goal",
+            "edit": "Edit goal",
+            "delete": "Delete goal",
+            "archive": "Archive goal",
+            "restore": "Restore goal",
+            "save": "Save",
+            "cancel": "Cancel",
+            "addMilestone": "Add milestone",
+            "editMilestone": "Edit milestone",
+            "deleteMilestone": "Delete milestone",
+            "markMilestoneCompleted": "Mark milestone as completed",
+            "markMilestonePending": "Mark milestone as pending"
+        },
+        "fields": {
+            "title": "Goal title",
+            "titlePlaceholder": "e.g. Run a half-marathon",
+            "description": "Description",
+            "descriptionPlaceholder": "Describe what you want to achieve...",
+            "category": "Category",
+            "targetDate": "Target date",
+            "progressType": "Progress type",
+            "progress": "Progress",
+            "startValue": "Starting value",
+            "currentValue": "Current value",
+            "targetValue": "Target value",
+            "unit": "Unit",
+            "currency": "Currency",
+            "color": "Color",
+            "icon": "Icon",
+            "milestones": "Milestones"
+        },
+        "progressType": {
+            "manual": "Manual percentage",
+            "milestones": "Based on milestones",
+            "numeric": "Based on a numeric target"
+        },
+        "milestones": {
+            "title": "Milestones",
+            "name": "Milestone name",
+            "namePlaceholder": "e.g. Run 10km",
+            "targetDate": "Target date",
+            "completed": "Completed",
+            "pending": "Pending",
+            "empty": "No milestones added"
+        },
+        "status": {
+            "active": "Active",
+            "completed": "Completed",
+            "archived": "Archived",
+            "overdue": "Overdue"
+        },
+        "empty": {
+            "title": "No goals yet",
+            "description": "Create your first goal and start tracking your progress."
+        },
+        "errors": {
+            "titleRequired": "Enter a goal title",
+            "targetDateRequired": "Select a target date",
+            "targetValueRequired": "Enter a target value",
+            "createFailed": "Could not create the goal",
+            "updateFailed": "Could not update the goal",
+            "deleteFailed": "Could not delete the goal"
+        },
+        "messages": {
+            "createdSuccessfully": "Goal created successfully",
+            "updatedSuccessfully": "Goal updated successfully",
+            "deletedSuccessfully": "Goal deleted successfully",
+            "completedSuccessfully": "Goal completed successfully"
+        }
+    },
+    "wishlist": {
+        "title": "Wishlist",
+        "summary": {
+            "savingTowardWishes": "Saving toward wishes",
+            "savedAmount": "{{saved}}",
+            "totalAmount": "/ {{total}}"
+        },
+        "tabs": {
+            "all": "All"
+        },
+        "progress": {
+            "saved": "{{percentage}}% saved",
+            "savedAmount": "{{saved}} of {{target}} saved"
+        },
+        "status": {
+            "active": "Saving",
+            "owned": "Owned",
+            "archived": "Archived"
+        },
+        "actions": {
+            "add": "Add wish",
+            "edit": "Edit wish",
+            "delete": "Delete wish",
+            "archive": "Archive wish",
+            "restore": "Restore wish",
+            "markAsOwned": "Mark as owned",
+            "markAsActive": "Move back to wishlist",
+            "addSavings": "Add savings",
+            "save": "Save",
+            "cancel": "Cancel"
+        },
+        "fields": {
+            "name": "Wish name",
+            "namePlaceholder": "e.g. Noise-cancelling headphones",
+            "brand": "Brand",
+            "brandPlaceholder": "e.g. Sony",
+            "description": "Description",
+            "descriptionPlaceholder": "Add some details...",
+            "category": "Category",
+            "price": "Target price",
+            "savedAmount": "Amount saved",
+            "currency": "Currency",
+            "url": "Product link",
+            "urlPlaceholder": "Paste the product link",
+            "image": "Image",
+            "priority": "Priority",
+            "targetDate": "Target date",
+            "status": "Status",
+            "notes": "Notes",
+            "notesPlaceholder": "Add notes about this wish..."
+        },
+        "priority": {
+            "low": "Low",
+            "medium": "Medium",
+            "high": "High"
+        },
+        "category": {
+            "title": "Category",
+            "select": "Select category",
+            "createNew": "Create new category",
+            "newCategoryTitle": "New wishlist category",
+            "name": "Category name",
+            "namePlaceholder": "e.g. Photography",
+            "icon": "Icon",
+            "color": "Color",
+            "create": "Create category",
+            "edit": "Edit category",
+            "delete": "Delete category",
+            "cancel": "Cancel",
+            "noCategories": "No categories found",
+            "createdSuccessfully": "Category created successfully",
+            "updatedSuccessfully": "Category updated successfully",
+            "deletedSuccessfully": "Category deleted successfully",
+            "errors": {
+                "nameRequired": "Enter a category name",
+                "nameAlreadyExists": "A category with this name already exists",
+                "createFailed": "Could not create the category",
+                "updateFailed": "Could not update the category",
+                "deleteFailed": "Could not delete the category"
+            }
+        },
+        "empty": {
+            "title": "Your wishlist is empty",
+            "description": "Add something you would like to save for."
+        },
+        "errors": {
+            "nameRequired": "Enter a wish name",
+            "priceRequired": "Enter the target price",
+            "invalidPrice": "Enter a valid price",
+            "savedAmountExceedsPrice": "The saved amount cannot be greater than the target price",
+            "createFailed": "Could not create the wish",
+            "updateFailed": "Could not update the wish",
+            "deleteFailed": "Could not delete the wish"
+        },
+        "messages": {
+            "createdSuccessfully": "Wish added successfully",
+            "updatedSuccessfully": "Wish updated successfully",
+            "deletedSuccessfully": "Wish deleted successfully",
+            "markedAsOwned": "Wish marked as owned",
+            "savingsUpdated": "Savings updated successfully"
+        }
+    },
+    "notes": {
+        "title": "Notes",
+        "search": {
+            "placeholder": "Search notes, tags, content..."
+        },
+        "folders": {
+            "title": "Folders",
+            "all": "All",
+            "createNew": "Create new folder",
+            "edit": "Edit folder",
+            "delete": "Delete folder",
+            "name": "Folder name",
+            "namePlaceholder": "e.g. Recipes",
+            "icon": "Icon",
+            "color": "Color",
+            "create": "Create folder",
+            "save": "Save",
+            "cancel": "Cancel",
+            "empty": "No folders",
+            "errors": {
+                "nameRequired": "Enter a folder name",
+                "nameAlreadyExists": "A folder with this name already exists",
+                "createFailed": "Could not create the folder",
+                "updateFailed": "Could not update the folder",
+                "deleteFailed": "Could not delete the folder"
+            }
+        },
+        "sections": {
+            "pinned": "Pinned",
+            "allNotes": "All notes"
+        },
+        "actions": {
+            "new": "New note",
+            "edit": "Edit note",
+            "delete": "Delete note",
+            "duplicate": "Duplicate note",
+            "pin": "Pin note",
+            "unpin": "Unpin note",
+            "archive": "Archive note",
+            "restore": "Restore note",
+            "share": "Share note",
+            "save": "Save",
+            "cancel": "Cancel"
+        },
+        "fields": {
+            "title": "Title",
+            "titlePlaceholder": "Untitled note",
+            "content": "Content",
+            "contentPlaceholder": "Start writing...",
+            "folder": "Folder",
+            "tags": "Tags",
+            "attachments": "Attachments",
+            "cover": "Cover image"
+        },
+        "blocks": {
+            "title": "Blocks",
+            "text": "Text",
+            "image": "Image",
+            "code": "Code",
+            "table": "Table",
+            "voice": "Voice"
+        },
+        "empty": {
+            "title": "No notes yet",
+            "description": "Create your first note."
+        },
+        "messages": {
+            "createdSuccessfully": "Note created successfully",
+            "updatedSuccessfully": "Note updated successfully",
+            "deletedSuccessfully": "Note deleted successfully"
+        },
+        "errors": {
+            "titleRequired": "Enter a note title",
+            "createFailed": "Could not create the note",
+            "updateFailed": "Could not update the note",
+            "deleteFailed": "Could not delete the note"
+        }
+    },
+    "planner": {
+        "title": "Planner",
+        "subtitle": "Plan your day",
+        "periods": {
+            "morning": "Morning",
+            "afternoon": "Afternoon",
+            "evening": "Evening"
+        },
+        "actions": {
+            "addBlock": "Add block",
+            "editBlock": "Edit block",
+            "deleteBlock": "Delete block",
+            "moveBlock": "Move block",
+            "save": "Save",
+            "cancel": "Cancel"
+        },
+        "fields": {
+            "title": "Block title",
+            "titlePlaceholder": "Enter a title",
+            "description": "Description",
+            "descriptionPlaceholder": "Add some details...",
+            "date": "Date",
+            "startTime": "Start time",
+            "endTime": "End time",
+            "period": "Period",
+            "category": "Category",
+            "color": "Color",
+            "icon": "Icon",
+            "source": "Source"
+        },
+        "source": {
+            "manual": "Planner block",
+            "task": "Task",
+            "habit": "Habit"
+        },
+        "empty": {
+            "morning": "No plans for the morning",
+            "afternoon": "No plans for the afternoon",
+            "evening": "No plans for the evening"
+        },
+        "errors": {
+            "titleRequired": "Enter a block title",
+            "startTimeRequired": "Select a start time",
+            "invalidTimeRange": "The end time must be later than the start time",
+            "createFailed": "Could not create the block",
+            "updateFailed": "Could not update the block",
+            "deleteFailed": "Could not delete the block"
+        },
+        "messages": {
+            "createdSuccessfully": "Block created successfully",
+            "updatedSuccessfully": "Block updated successfully",
+            "deletedSuccessfully": "Block deleted successfully"
+        }
+    },
+    "statistics": {
+        "title": "Statistics",
+        "periods": {
+            "week": "Week",
+            "month": "Month",
+            "year": "Year"
+        },
+        "summary": {
+            "tasksDone": "Tasks done",
+            "focusTime": "Focus time",
+            "habitStreak": "Habit streak",
+            "averageScore": "Average score",
+            "best": "Best",
+            "days": "{{count}} day",
+            "days_other": "{{count}} days"
+        },
+        "sections": {
+            "weeklyProductivity": "Weekly productivity",
+            "monthlyProductivity": "Monthly productivity",
+            "yearlyProductivity": "Yearly productivity",
+            "focusMinutes": "Focus minutes",
+            "topHabits": "Top habits"
+        },
+        "comparisons": {
+            "increase": "+{{value}}",
+            "decrease": "-{{value}}",
+            "percentageIncrease": "+{{value}}%",
+            "percentageDecrease": "-{{value}}%",
+            "timeIncrease": "+{{value}}",
+            "timeDecrease": "-{{value}}",
+            "comparedToPreviousWeek": "Compared to last week",
+            "comparedToPreviousMonth": "Compared to last month",
+            "comparedToPreviousYear": "Compared to last year",
+            "noChange": "No change"
+        },
+        "charts": {
+            "productivityScore": "Productivity score",
+            "tasksCompleted": "Tasks completed",
+            "focusTime": "Focus time",
+            "habitCompletion": "Habit completion",
+            "minutes": "Minutes",
+            "hours": "Hours",
+            "percentage": "Percentage",
+            "noData": "Not enough data for this period"
+        },
+        "habitProgress": {
+            "completion": "{{percentage}}% completed"
+        },
+        "actions": {
+            "viewDetails": "View details",
+            "export": "Export statistics"
+        },
+        "empty": {
+            "title": "No statistics yet",
+            "description": "Complete tasks and habits to start tracking your progress."
+        },
+        "errors": {
+            "loadFailed": "Could not load your statistics"
+        }
+    },
+    "profile": {
+        "title": "Profile",
+        "account": {
+            "memberSince": "Member since {{date}}"
+        },
+        "subscription": {
+            "freePlan": "YourSpace Free",
+            "proPlan": "YourSpace Pro",
+            "description": "Unlock unlimited goals, themes and insights",
+            "upgrade": "Upgrade",
+            "pricePerMonth": "{{price}}/mo",
+            "manageSubscription": "Manage subscription",
+            "currentPlan": "Current plan"
+        },
+        "statistics": {
+            "tasks": "Tasks",
+            "score": "Score",
+            "goals": "Goals",
+            "wishes": "Wishes"
+        },
+        "sections": {
+            "appearance": "Appearance",
+            "preferences": "Preferences",
+            "connectedAccounts": "Connected accounts",
+            "privacyAndData": "Privacy & data",
+            "about": "About YourSpace"
+        },
+        "appearance": {
+            "light": "Light",
+            "dark": "Dark",
+            "system": "Auto"
+        },
+        "preferences": {
+            "notifications": "Notifications",
+            "language": "Language",
+            "backupAndSync": "Backup & sync"
+        },
+        "notifications": {
+            "title": "Notifications",
+            "enabled": "Enabled",
+            "disabled": "Disabled",
+            "taskReminders": "Task reminders",
+            "habitReminders": "Habit reminders",
+            "goalUpdates": "Goal updates",
+            "dailySummary": "Daily summary"
+        },
+        "language": {
+            "title": "Language",
+            "english": "English",
+            "portuguese": "Portuguese",
+            "systemDefault": "Use device language"
+        },
+        "backup": {
+            "title": "Backup & sync",
+            "enabled": "Backup enabled",
+            "disabled": "Backup disabled",
+            "lastBackup": "Last backup: {{date}}",
+            "syncNow": "Sync now",
+            "syncing": "Syncing...",
+            "syncedSuccessfully": "Data synced successfully",
+            "syncFailed": "Could not sync your data"
+        },
+        "connectedAccounts": {
+            "googleCalendar": "Google Calendar",
+            "appleCalendar": "Apple Calendar",
+            "notion": "Notion",
+            "connected": "Connected",
+            "connect": "Connect",
+            "disconnect": "Disconnect",
+            "connectionFailed": "Could not connect the account",
+            "disconnectionFailed": "Could not disconnect the account"
+        },
+        "privacy": {
+            "privacyPolicy": "Privacy policy",
+            "termsOfUse": "Terms of use",
+            "exportData": "Export data",
+            "deleteAccount": "Delete account",
+            "downloadData": "Download my data"
+        },
+        "about": {
+            "version": "Version {{version}}",
+            "contactSupport": "Contact support",
+            "rateApp": "Rate the app",
+            "licenses": "Licenses"
+        },
+        "actions": {
+            "editProfile": "Edit profile",
+            "save": "Save",
+            "cancel": "Cancel",
+            "signOut": "Sign out"
+        },
+        "editProfile": {
+            "title": "Edit profile",
+            "fields": {
+                "fullName": "Full name",
+                "fullNamePlaceholder": "Enter your full name",
+                "email": "Email",
+                "emailPlaceholder": "Enter your email",
+                "profilePicture": "Profile picture"
+            },
+            "changePicture": "Change picture",
+            "removePicture": "Remove picture"
+        },
+        "signOut": {
+            "title": "Sign out?",
+            "description": "You will need to sign in again to access your account.",
+            "confirm": "Sign out",
+            "cancel": "Cancel"
+        },
+        "deleteAccount": {
+            "title": "Delete account?",
+            "description": "This action is permanent and all your data will be deleted.",
+            "confirm": "Delete account",
+            "cancel": "Cancel"
+        },
+        "messages": {
+            "profileUpdated": "Profile updated successfully",
+            "languageUpdated": "Language updated successfully",
+            "appearanceUpdated": "Appearance updated successfully"
+        },
+        "errors": {
+            "profileUpdateFailed": "Could not update your profile",
+            "signOutFailed": "Could not sign out",
+            "exportFailed": "Could not export your data"
+        }
+    }
+}
