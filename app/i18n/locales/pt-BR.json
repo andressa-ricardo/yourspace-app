@@ -1,4 +1,21 @@
 {
+    "onboarding": {
+        "skip": "Pular",
+        "slides": {
+            "capture": {
+                "title": "Capture tudo",
+                "description": "Tarefas, notas, eventos e hábitos — tudo em um só lugar calmo, bonito e simples."
+            },
+            "focus": {
+                "title": "Foque no que importa",
+                "description": "Defina objetivos, construa hábitos e veja sua semana se organizar naturalmente."
+            },
+            "grow": {
+                "title": "Veja sua evolução",
+                "description": "Acompanhe seu progresso com informações elegantes e comemore suas sequências."
+            }
+        }
+    },
     "auth": {
         "register": {
             "title": "Criar conta",

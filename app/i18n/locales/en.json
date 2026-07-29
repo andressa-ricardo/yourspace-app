@@ -1,4 +1,21 @@
 {
+    "onboarding": {
+        "skip": "Skip",
+        "slides": {
+            "capture": {
+                "title": "Capture everything",
+                "description": "Tasks, notes, events, habits — all in one calm, beautifully simple place."
+            },
+            "focus": {
+                "title": "Focus on what matters",
+                "description": "Set goals, build habits, and watch your week come together effortlessly."
+            },
+            "grow": {
+                "title": "See yourself grow",
+                "description": "Elegant insights show your progress and celebrate your streaks."
+            }
+        }
+    },
     "auth": {
         "register": {
             "title": "Create account",

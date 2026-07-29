@@ -1,6 +1,7 @@
 import {
   Bell,
   Calendar,
+  ChartColumn,
   CircleCheck,
   Columns3,
   Eye,
@@ -12,6 +13,7 @@ import {
   List,
   Lock,
   Mail,
+  MessageCircleHeart,
   Moon,
   NotepadText,
   Package2,
@@ -28,6 +30,7 @@ import {
 const APP_ICONS = {
   notifications: Bell,
   completed: CircleCheck,
+  chart: ChartColumn,
   streak: Flame,
   wishlist: Package2,
   notes: NotepadText,
@@ -45,7 +48,7 @@ const APP_ICONS = {
   list: List,
   board: Columns3,
   search: Search,
-
+  heart: MessageCircleHeart,
   mail: Mail,
   eye: Eye,
   eyeOff: EyeOff,
