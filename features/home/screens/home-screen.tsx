@@ -36,14 +36,13 @@ export function HomeScreen() {
     return "home.greeting.evening";
   }
 
-  // Nome mockado. Depois vou trazer do backend.
   const userName = "Andressa";
 
   return (
     <SafeAreaView className="flex-1 bg-surface">
       <ScrollView
         className="flex-1"
-        contentContainerClassName="flex-grow px-6 py-6"
+        contentContainerClassName="px-6 py-6"
         showsVerticalScrollIndicator={false}
       >
         <View className="w-full gap-8">
@@ -62,16 +61,14 @@ export function HomeScreen() {
 
             <AppText variant="title">{userName} ✨</AppText>
           </View>
+
           <ProductivityScoreCard />
+
           <SummaryCards />
+
           <TodayTasksSection />
         </View>
       </ScrollView>
-      <ScrollView
-        className="flex-1"
-        contentContainerClassName="px-6 py-6"
-        showsVerticalScrollIndicator={false}
-      ></ScrollView>
 
       <BottomNavigation activeItem="home" />
     </SafeAreaView>

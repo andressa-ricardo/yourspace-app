@@ -71,13 +71,15 @@ export function BottomNavigation({
           >
             <AppIcon
               name={item.icon}
-              size={24}
+              size={20}
               color={isActive ? "#3F82F0" : "#5F6469"}
             />
 
             <AppText
-              variant="caption"
-              className={isActive ? "text-primary" : "text-muted"}
+              numberOfLines={1}
+              className={`text-[9px] leading-[10px] ${
+                isActive ? "text-primary" : "text-muted"
+              }`}
             >
               {t(item.labelKey)}
             </AppText>
