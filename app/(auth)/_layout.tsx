@@ -1,5 +1,5 @@
-import "@/app/i18n";
 import "@/global.css";
+import "@/i18n";
 
 import { Stack } from "expo-router";
 
