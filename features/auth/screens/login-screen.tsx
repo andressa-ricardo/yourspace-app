@@ -1,5 +1,6 @@
 import { useState } from "react";
 import {
+  Image,
   KeyboardAvoidingView,
   Platform,
   Pressable,
@@ -106,17 +107,64 @@ export function LoginScreen() {
               onPress={handleLogin}
             />
 
-            <View className="flex-row items-center justify-center gap-1">
-              <AppText variant="caption">
-                {t("auth.login.dontHaveAccount")}
-              </AppText>
+            <View className="gap-4">
+              <View className="flex-row items-center">
+                <View className="h-px flex-1 bg-border" />
 
-              <Pressable onPress={handleRegister}>
-                <AppText variant="link">{t("auth.login.signUpLink")}</AppText>
+                <AppText
+                  variant="caption"
+                  className="mx-4 uppercase text-[10px]"
+                >
+                  {t("auth.login.divider")}
+                </AppText>
+
+                <View className="h-px flex-1 bg-border" />
+              </View>
+
+              <Pressable className=" flex-row items-center justify-center rounded-full border h-12 border-border bg-surface">
+                <Image
+                  source={require("@/assets/images/google.png")}
+                  className="mr-3 h-5 w-5"
+                  resizeMode="contain"
+                />
+
+                <AppText
+                  variant="button"
+                  className="text-black font-interRegular text-[12px]"
+                >
+                  {t("auth.login.googleButton")}
+                </AppText>
+              </Pressable>
+
+              <Pressable className="flex-row items-center justify-center h-12 rounded-full bg-foreground">
+                <Image
+                  source={require("@/assets/images/apple.png")}
+                  className="mr-3 h-5 w-5"
+                  resizeMode="contain"
+                />
+
+                <AppText
+                  variant="button"
+                  className="text-primary-foreground font-interSemiBold text-[12px]"
+                >
+                  {t("auth.login.appleButton")}
+                </AppText>
               </Pressable>
             </View>
           </View>
         </ScrollView>
+
+        <View className="flex-row items-center justify-center gap-1 pb-10 ">
+          <AppText variant="caption" className="text-[10px]">
+            {t("auth.login.dontHaveAccount")}
+          </AppText>
+
+          <Pressable onPress={handleRegister}>
+            <AppText variant="link" className="text-[10px]">
+              {t("auth.login.signUpLink")}
+            </AppText>
+          </Pressable>
+        </View>
       </KeyboardAvoidingView>
     </SafeAreaView>
   );

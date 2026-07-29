@@ -13,12 +13,11 @@ type AppTextVariant =
 type AppTextProps = TextProps & {
   variant?: AppTextVariant;
   className?: string;
-  children: React.ReactNode;
 };
 
 const variants: Record<AppTextVariant, string> = {
   title:
-    "font-bold text-[32px] leading-[38px] tracking-[-0.7px] text-foreground",
+    "font-bold text-[30px] leading-[38px] tracking-[-0.7px] text-foreground",
 
   subtitle:
     "font-inter text-[16px] leading-[24px] tracking-[-0.2px] text-muted",
@@ -29,12 +28,12 @@ const variants: Record<AppTextVariant, string> = {
     "font-interMedium text-[14px] leading-[20px] tracking-[-0.15px] text-foreground",
 
   caption:
-    "font-inter text-[14px] leading-[20px] tracking-[-0.15px] text-muted",
+    "font-inter  text-[14px] leading-[20px] tracking-[-0.15px] text-muted",
 
   link: "font-interMedium text-[12px] leading-[20px] tracking-[-0.15px] text-primary",
 
   button:
-    "font-interSemiBold text-[16px] leading-[20px] tracking-[-0.2px] text-primary-foreground",
+    "font-bold text-[14px] leading-[20px] tracking-[-0.2px] text-primary-foreground",
 
   error: "font-inter text-[13px] leading-[18px] text-destructive",
 };

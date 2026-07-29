@@ -41,7 +41,7 @@ export function AppInput({
 
         <TextInput
           className={`
-            flex-1 font-inter text-[16px] text-muted
+            flex-1 font-inter text-[12px] text-muted
             ${className ?? ""}
           `}
           placeholderTextColor={Colors.light.muted}
