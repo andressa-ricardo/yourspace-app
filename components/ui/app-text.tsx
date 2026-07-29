@@ -12,6 +12,8 @@ type AppTextVariant =
 
 type AppTextProps = TextProps & {
   variant?: AppTextVariant;
+  className?: string;
+  children: React.ReactNode;
 };
 
 const variants: Record<AppTextVariant, string> = {
@@ -29,7 +31,7 @@ const variants: Record<AppTextVariant, string> = {
   caption:
     "font-inter text-[14px] leading-[20px] tracking-[-0.15px] text-muted",
 
-  link: "font-interMedium text-[14px] leading-[20px] tracking-[-0.15px] text-primary",
+  link: "font-interMedium text-[12px] leading-[20px] tracking-[-0.15px] text-primary",
 
   button:
     "font-interSemiBold text-[16px] leading-[20px] tracking-[-0.2px] text-primary-foreground",
