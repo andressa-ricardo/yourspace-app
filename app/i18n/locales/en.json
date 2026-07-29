@@ -16,8 +16,8 @@
                 "placeholder": "At least 8 characters"
             },
             "terms": {
-                "prefix": "By creating an account, you agree to our",
-                "termsOfUse": "Terms of Use",
+                "prefix": "By signing up you agree to our",
+                "termsOfUse": "Terms",
                 "and": "and",
                 "privacyPolicy": "Privacy Policy"
             },

@@ -20,12 +20,12 @@ const variants: Record<AppTextVariant, string> = {
     "font-bold text-[30px] leading-[38px] tracking-[-0.7px] text-foreground",
 
   subtitle:
-    "font-inter text-[16px] leading-[24px] tracking-[-0.2px] text-muted",
+    "font-inter text-[14px] leading-[24px] tracking-[-0.2px] text-muted",
 
-  body: "font-inter text-[16px] leading-[24px] tracking-[-0.2px] text-foreground",
+  body: "font-inter text-[14px] leading-[24px] tracking-[-0.2px] text-foreground",
 
   label:
-    "font-interMedium text-[14px] leading-[20px] tracking-[-0.15px] text-foreground",
+    "font-interMedium text-[12px] leading-[20px] tracking-[-0.15px] text-foreground",
 
   caption:
     "font-inter  text-[14px] leading-[20px] tracking-[-0.15px] text-muted",

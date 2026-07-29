@@ -20,7 +20,7 @@ export function AppButton({
   return (
     <Pressable
       className={`
-        h-14 items-center justify-center rounded-3xl bg-primary
+        h-12 items-center justify-center rounded-3xl bg-primary
         ${isDisabled ? "opacity-50" : "active:opacity-80"}
         ${className ?? ""}
       `}

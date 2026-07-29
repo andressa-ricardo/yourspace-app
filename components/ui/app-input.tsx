@@ -30,7 +30,7 @@ export function AppInput({
 
       <View
         className={`
-          h-14 flex-row items-center gap-3 rounded-3xl 
+          h-12 flex-row items-center gap-3 rounded-3xl 
           bg-surface px-4
           ${error ? "border-destructive" : "border-border"}
         `}

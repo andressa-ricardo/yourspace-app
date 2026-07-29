@@ -121,17 +121,14 @@ export function LoginScreen() {
                 <View className="h-px flex-1 bg-border" />
               </View>
 
-              <Pressable className=" flex-row items-center justify-center rounded-full border h-12 border-border bg-surface">
+              <Pressable className=" flex-row items-center justify-center rounded-full border h-12 border-border bg-surface text-foreground">
                 <Image
                   source={require("@/assets/images/google.png")}
                   className="mr-3 h-5 w-5"
                   resizeMode="contain"
                 />
 
-                <AppText
-                  variant="button"
-                  className="text-black font-interRegular text-[12px]"
-                >
+                <AppText variant="button" style={{ color: "#000" }}>
                   {t("auth.login.googleButton")}
                 </AppText>
               </Pressable>
@@ -155,7 +152,7 @@ export function LoginScreen() {
         </ScrollView>
 
         <View className="flex-row items-center justify-center gap-1 pb-10 ">
-          <AppText variant="caption" className="text-[10px]">
+          <AppText variant="link" className="text-[10px] text-[#000000]">
             {t("auth.login.dontHaveAccount")}
           </AppText>
 
