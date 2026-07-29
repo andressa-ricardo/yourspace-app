@@ -4,6 +4,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 import { AppIcon } from "@/components/ui/app-icon";
 import { AppText } from "@/components/ui/app-text";
+import { BottomNavigation } from "../components/navigation/bottom-navigation";
 import { ProductivityScoreCard } from "../components/productivity-score-card";
 import { SummaryCards } from "../components/summary-cards";
 import { TodayTasksSection } from "../components/today-tasks-section";
@@ -66,6 +67,13 @@ export function HomeScreen() {
           <TodayTasksSection />
         </View>
       </ScrollView>
+      <ScrollView
+        className="flex-1"
+        contentContainerClassName="px-6 py-6"
+        showsVerticalScrollIndicator={false}
+      ></ScrollView>
+
+      <BottomNavigation activeItem="home" />
     </SafeAreaView>
   );
 }

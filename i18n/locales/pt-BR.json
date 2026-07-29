@@ -127,6 +127,13 @@
             "statistics": "Estatísticas",
             "goals": "Metas",
             "wishlist": "Lista de desejos"
+        },
+        "sidebar": {
+            "home": "Início",
+            "tasks": "Tarefas",
+            "calendar": "Calendário",
+            "notes": "Anotações",
+            "profile": "Perfil"
         }
     },
     "tasks": {

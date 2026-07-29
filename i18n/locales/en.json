@@ -127,6 +127,13 @@
             "statistics": "Statistics",
             "goals": "Goals",
             "wishlist": "Wishlist"
+        },
+        "sidebar": {
+            "home": "Home",
+            "tasks": "Tasks",
+            "calendar": "Calendar",
+            "notes": "Notes",
+            "profile": "Profile"
         }
     },
     "tasks": {
