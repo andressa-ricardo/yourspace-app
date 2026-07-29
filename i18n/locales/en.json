@@ -67,7 +67,7 @@
     },
     "home": {
         "greeting": {
-            "morning": "Good morning,",
+            "morning": "Good morning, ",
             "afternoon": "Good afternoon,",
             "evening": "Good evening,"
         },
@@ -103,7 +103,7 @@
             "more": "More"
         },
         "actions": {
-            "seeAll": "See all"
+            "seeAll": "See all >"
         },
         "taskPriority": {
             "low": "Low",

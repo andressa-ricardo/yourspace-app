@@ -23,6 +23,7 @@ import {
   Sun,
   TrendingUp,
   User,
+  Zap,
   type LucideIcon,
   type LucideProps,
 } from "lucide-react-native";
@@ -52,6 +53,7 @@ const APP_ICONS = {
   mail: Mail,
   eye: Eye,
   eyeOff: EyeOff,
+  focus: Zap,
 } satisfies Record<string, LucideIcon>;
 
 export type AppIconName = keyof typeof APP_ICONS;

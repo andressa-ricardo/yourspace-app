@@ -30,7 +30,11 @@ export function LoginScreen() {
         password,
       });
 
+      // Simulação da chamada ao backend
       await new Promise((resolve) => setTimeout(resolve, 1000));
+
+      // Login realizado com sucesso
+      router.replace("/(home)");
     } catch (error) {
       console.error("Erro ao realizar login:", error);
     } finally {
