@@ -12,8 +12,8 @@ import { SafeAreaView } from "react-native-safe-area-context";
 import { AppButton } from "@/components/ui/app-button";
 import { AppInput } from "@/components/ui/app-input";
 import { AppText } from "@/components/ui/app-text";
+import { router } from "expo-router";
 import { useTranslation } from "react-i18next";
-
 export function LoginScreen() {
   const { t } = useTranslation();
 
@@ -43,7 +43,7 @@ export function LoginScreen() {
   }
 
   function handleRegister() {
-    console.log("Abrir cadastro");
+    router.push("/(auth)/register");
   }
 
   return (
