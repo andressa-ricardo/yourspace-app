@@ -1,65 +1,103 @@
 ﻿/**
- * Below are the colors that are used in the app. The colors are defined in the light and dark mode.
- * There are many other ways to style your app. For example, [Nativewind](https://www.nativewind.dev/), [Tamagui](https://tamagui.dev/), [unistyles](https://reactnativeunistyles.vercel.app), etc.
+ * Cores e fontes usadas no aplicativo.
+ * As cores são separadas entre tema claro e escuro.
  */
 
-import { Platform } from 'react-native';
+import { Platform } from "react-native";
 
-const primaryLight = '#2563EB';
-const primaryDark = '#60A5FA';
+const primaryLight = "#3F82F0";
+const primaryDark = "#5C9CFF";
 
 export const Colors = {
   light: {
-    text: '#0F172A',
-    background: '#F8FAFC',
-    surface: '#FFFFFF',
+    text: "#0E1216",
+    background: "#F9FAFB",
+    surface: "#FFFFFF",
+
     tint: primaryLight,
     primary: primaryLight,
-    primarySoft: '#DBEAFE',
-    accent: '#F97316',
-    muted: '#64748B',
-    border: '#D7E2F0',
-    icon: '#64748B',
-    tabIconDefault: '#94A3B8',
+    primaryForeground: "#FFFFFF",
+    primarySoft: "#E3EFFF",
+
+    muted: "#5F6469",
+    border: "#E3E5E7",
+    icon: "#5F6469",
+
+    destructive: "#EE343B",
+    success: "#20B46B",
+    warning: "#EFA831",
+
+    tabIconDefault: "#5F6469",
     tabIconSelected: primaryLight,
   },
+
   dark: {
-    text: '#E5EEF9',
-    background: '#020817',
-    surface: '#0F172A',
+    text: "#F4F5F7",
+    background: "#060709",
+    surface: "#101214",
+
     tint: primaryDark,
     primary: primaryDark,
-    primarySoft: '#172554',
-    accent: '#FB923C',
-    muted: '#94A3B8',
-    border: '#1E293B',
-    icon: '#94A3B8',
-    tabIconDefault: '#64748B',
+    primaryForeground: "#FFFFFF",
+    primarySoft: "#162B4D",
+
+    muted: "#A2A7AD",
+    border: "#212428",
+    icon: "#A2A7AD",
+
+    destructive: "#EE343B",
+    success: "#20B46B",
+    warning: "#EFA831",
+
+    tabIconDefault: "#A2A7AD",
     tabIconSelected: primaryDark,
   },
 };
 
+export const CategoryColors = {
+  blue: "#3F82F0",
+  purple: "#9D57DE",
+  pink: "#F3669A",
+  orange: "#F3821D",
+  green: "#20B46B",
+  teal: "#00B4BC",
+  red: "#EE343B",
+} as const;
+
 export const Fonts = Platform.select({
   ios: {
-    /** iOS `UIFontDescriptorSystemDesignDefault` */
-    sans: 'system-ui',
-    /** iOS `UIFontDescriptorSystemDesignSerif` */
-    serif: 'ui-serif',
-    /** iOS `UIFontDescriptorSystemDesignRounded` */
-    rounded: 'ui-rounded',
-    /** iOS `UIFontDescriptorSystemDesignMonospaced` */
-    mono: 'ui-monospace',
+    sans: "Inter_400Regular",
+    medium: "Inter_500Medium",
+    semibold: "Inter_600SemiBold",
+    bold: "Inter_700Bold",
+
+    serif: "ui-serif",
+    rounded: "ui-rounded",
+    mono: "ui-monospace",
   },
+
   default: {
-    sans: 'normal',
-    serif: 'serif',
-    rounded: 'normal',
-    mono: 'monospace',
+    sans: "Inter_400Regular",
+    medium: "Inter_500Medium",
+    semibold: "Inter_600SemiBold",
+    bold: "Inter_700Bold",
+
+    serif: "serif",
+    rounded: "normal",
+    mono: "monospace",
   },
+
   web: {
-    sans: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif",
+    sans: "Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
+    medium:
+      "Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
+    semibold:
+      "Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
+    bold: "Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
+
     serif: "Georgia, 'Times New Roman', serif",
-    rounded: "'SF Pro Rounded', 'Hiragino Maru Gothic ProN', Meiryo, 'MS PGothic', sans-serif",
-    mono: "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace",
+    rounded:
+      "'SF Pro Rounded', 'Hiragino Maru Gothic ProN', Meiryo, sans-serif",
+    mono: "SFMono-Regular, Menlo, Monaco, Consolas, monospace",
   },
 });

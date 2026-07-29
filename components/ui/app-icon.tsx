@@ -3,24 +3,27 @@ import {
   Calendar,
   CircleCheck,
   Columns3,
+  Eye,
+  EyeOff,
   Flame,
   Globe,
   Goal,
   Info,
   List,
   Lock,
+  Mail,
   Moon,
   NotepadText,
   Package2,
-  type LucideIcon,
-  type LucideProps,
   ScrollText,
   Search,
   SquareCheckBig,
   Sun,
   TrendingUp,
   User,
-} from 'lucide-react-native';
+  type LucideIcon,
+  type LucideProps,
+} from "lucide-react-native";
 
 const APP_ICONS = {
   notifications: Bell,
@@ -42,6 +45,10 @@ const APP_ICONS = {
   list: List,
   board: Columns3,
   search: Search,
+
+  mail: Mail,
+  eye: Eye,
+  eyeOff: EyeOff,
 } satisfies Record<string, LucideIcon>;
 
 export type AppIconName = keyof typeof APP_ICONS;
